@@ -1,0 +1,12 @@
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\bin\Debug\MagicGraphics.exe.config
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\bin\Debug\MagicGraphics.exe
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\bin\Debug\MagicGraphics.pdb
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\obj\Debug\MagicGraphics.csprojResolveAssemblyReference.cache
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\obj\Debug\MagicGraphics.Form1.resources
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\obj\Debug\MagicGraphics.Properties.Resources.resources
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\obj\Debug\MagicGraphics.csproj.GenerateResource.Cache
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\obj\Debug\MagicGraphics.exe
+C:\Users\S467528\AppData\Local\Temporary Projects\MagicGraphics\obj\Debug\MagicGraphics.pdb
+C:\Users\S467528\Documents\Visual Studio 2015\Projects\MagicGraphics\MagicGraphics\bin\Debug\MagicGraphics.exe.config
+C:\Users\S467528\Documents\Visual Studio 2015\Projects\MagicGraphics\MagicGraphics\obj\Debug\MagicGraphics.exe
+C:\Users\S467528\Documents\Visual Studio 2015\Projects\MagicGraphics\MagicGraphics\obj\Debug\MagicGraphics.pdb
