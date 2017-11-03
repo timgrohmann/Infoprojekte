@@ -13,14 +13,15 @@ namespace MagicGraphics
     {
         float scale;
         Vector center;
-        PictureBox picBox;
+        Graphics gCont;
         
 
-        Display(float s, Vector v, PictureBox picBox)
+        public Display(float s, Vector v, Graphics gCont)
         {
             scale = s;
             center = v;
-            this.picBox = picBox;
+            this.gCont = gCont;
+            gCont.Clear(Color.White);
         }
 
         Vector toCoordinateSpace(Vector v)
@@ -28,16 +29,20 @@ namespace MagicGraphics
             return Vector.Multiply(Vector.Subtract(v, center),scale);
         }
 
-        Vector toDisplaySpace(Vector v)
+        PointF toDisplaySpace(Vector v)
         {
-            return Vector.Subtract(Vector.Divide(v, scale), center);
+            v.Y *= -1;
+            Vector c = Vector.Add(Vector.Divide(v, scale), center);
+        
+            return new PointF((float) c.X, (float) c.Y);
         }
 
-        void connectPoints(Vector[] inp)
+        public void connectPoints(Vector[] inp)
         {
-            Vector[] converted = inp.Select(i => toDisplaySpace(i)).ToArray();
+            PointF[] converted = inp.Select(i => toDisplaySpace(i)).ToArray();
             Pen p = new Pen(Color.Black);
             
+            gCont.DrawLines(p, converted);
         }
     }
 }
